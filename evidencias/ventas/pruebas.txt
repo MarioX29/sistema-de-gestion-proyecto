@@ -1,0 +1,14 @@
+PASS: probar_venta_multiple
+PASS: probar_repetidos_y_stock
+PASS: probar_cantidades_invalidas
+PASS: probar_no_disponibles
+PASS: probar_codigos_invalidos
+PASS: probar_cancelaciones
+PASS: probar_confirmacion_y_numeracion
+PASS: probar_historial_independiente
+PASS: probar_redondeo_y_gratis
+PASS: probar_desbordamiento
+PASS: probar_lectura_interrumpida
+PASS: probar_desbordamiento_con_carrito
+PASS: probar_consola
+13 pruebas de ventas completadas correctamente.

@@ -1,0 +1,87 @@
+
+Sistema de gestión comercial
+1. Gestión de productos.
+2. Registro de ventas.
+3. Control de inventario.
+4. Reportes y estadísticas.
+5. Salir.
+Seleccioná una opción: 
+Gestión de productos
+1. Registrar producto.
+2. Consultar por código.
+3. Listar productos.
+4. Modificar producto.
+5. Desactivar producto.
+6. Volver al menú principal.
+Seleccioná una opción: Código: Nombre: Categoría: Precio: Existencia inicial: Stock mínimo: Producto registrado correctamente.
+
+Gestión de productos
+1. Registrar producto.
+2. Consultar por código.
+3. Listar productos.
+4. Modificar producto.
+5. Desactivar producto.
+6. Volver al menú principal.
+Seleccioná una opción: 
+Sistema de gestión comercial
+1. Gestión de productos.
+2. Registro de ventas.
+3. Control de inventario.
+4. Reportes y estadísticas.
+5. Salir.
+Seleccioná una opción: Código del producto (Enter para finalizar): Disponible para agregar: 3
+Cantidad a vender: Código del producto (Enter para finalizar): P01 - Cuaderno | Cantidad: 2 | Precio: 12.50 | Subtotal: 25.00
+Subtotal: 25.00
+IVA (12 %): 3.00
+Total: 28.00
+¿Confirmar venta? (S/N): Venta registrada correctamente. Número: 1
+
+Sistema de gestión comercial
+1. Gestión de productos.
+2. Registro de ventas.
+3. Control de inventario.
+4. Reportes y estadísticas.
+5. Salir.
+Seleccioná una opción: 
+Control de inventario
+1. Consultar existencias.
+2. Registrar entrada.
+3. Productos en stock mínimo o por debajo.
+4. Historial de movimientos.
+5. Volver al menú principal.
+Seleccioná una opción: Código: P01 - Cuaderno | Cantidad: 1 | Mínimo: 1 | Estado: Activo
+Cantidad de entrada: Descripción: Cantidad resultante: 5
+¿Confirmar entrada? (S/N): Entrada registrada correctamente. Cantidad disponible: 5
+
+Control de inventario
+1. Consultar existencias.
+2. Registrar entrada.
+3. Productos en stock mínimo o por debajo.
+4. Historial de movimientos.
+5. Volver al menú principal.
+Seleccioná una opción: P01 - Cuaderno | Cantidad: 5 | Mínimo: 1 | Estado: Activo
+
+Control de inventario
+1. Consultar existencias.
+2. Registrar entrada.
+3. Productos en stock mínimo o por debajo.
+4. Historial de movimientos.
+5. Volver al menú principal.
+Seleccioná una opción: 2026-11-03 18:36:01 | P01 | Entrada inicial | Cantidad: 3 | Registro del producto
+2026-11-03 18:36:01 | P01 | Salida por venta | Cantidad: 2 | Venta número 1
+2026-11-03 18:36:01 | P01 | Entrada | Cantidad: 4 | Reposicion
+
+Control de inventario
+1. Consultar existencias.
+2. Registrar entrada.
+3. Productos en stock mínimo o por debajo.
+4. Historial de movimientos.
+5. Volver al menú principal.
+Seleccioná una opción: 
+Sistema de gestión comercial
+1. Gestión de productos.
+2. Registro de ventas.
+3. Control de inventario.
+4. Reportes y estadísticas.
+5. Salir.
+Seleccioná una opción: Hasta luego.

@@ -1,0 +1,9 @@
+Codigo del producto: Enter para finalizar
+> Cantidad a vender
+> Codigo del producto: Enter para finalizar
+> P01 Cantidad: 2 Subtotal: 25
+Subtotal: 25 IVA: 3 Total: 28
+Confirmar venta (S/N)
+> Venta numero: 1 Fecha: 20261104 Hora: 183604
+Salida por venta: P01 Cantidad: 2
+Venta registrada correctamente.

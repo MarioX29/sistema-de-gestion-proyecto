@@ -1,0 +1,41 @@
+Interprete oficial PSeInt 20250314. Perfil Flexible, indices base cero.
+SINTAXIS OK: 01_menu.psc
+SINTAXIS OK: 02_registrar_producto.psc
+SINTAXIS OK: 03_consultar_producto.psc
+SINTAXIS OK: 04_modificar_producto.psc
+SINTAXIS OK: 05_desactivar_producto.psc
+SINTAXIS OK: 06_registrar_venta.psc
+SINTAXIS OK: 07_entrada_inventario.psc
+SINTAXIS OK: 08_consultas_inventario.psc
+SINTAXIS OK: 09_reportes.psc
+SINTAXIS OK: 10_promedio_periodo.psc
+SINTAXIS OK: 11_listar_productos.psc
+SINTAXIS OK: 12_historial_movimientos.psc
+EJECUCION OK: menu
+EJECUCION OK: registro
+EJECUCION OK: registro_invalidos
+EJECUCION OK: consulta
+EJECUCION OK: consulta_inexistente
+EJECUCION OK: modificar
+EJECUCION OK: conservar
+EJECUCION OK: modificar_inexistente
+EJECUCION OK: desactivar
+EJECUCION OK: no_desactivar
+EJECUCION OK: ya_inactivo
+EJECUCION OK: venta
+EJECUCION OK: venta_invalidos
+EJECUCION OK: venta_cancelada
+EJECUCION OK: venta_vacia
+EJECUCION OK: entrada
+EJECUCION OK: entrada_invalidos
+EJECUCION OK: entrada_inactivo
+EJECUCION OK: inventario
+EJECUCION OK: reportes
+EJECUCION OK: promedio
+EJECUCION OK: fecha_invalida
+EJECUCION OK: promedio_cancelado
+EJECUCION OK: sin_ventas_periodo
+EJECUCION OK: listado
+EJECUCION OK: movimientos
+26 escenarios ejecutados correctamente.
+No implica equivalencia en limites numericos con Python.

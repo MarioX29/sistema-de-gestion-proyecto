@@ -1,0 +1,13 @@
+PASS: probar_entrada
+PASS: probar_validaciones
+PASS: probar_cancelacion_e_inexistente
+PASS: probar_vacios
+PASS: probar_limite_minimo
+PASS: probar_inactivo
+PASS: probar_registro_inicial
+PASS: probar_ajustes
+PASS: probar_salidas_ventas
+PASS: probar_historial
+PASS: probar_lectura_interrumpida
+PASS: probar_consola
+12 pruebas de inventario completadas correctamente.

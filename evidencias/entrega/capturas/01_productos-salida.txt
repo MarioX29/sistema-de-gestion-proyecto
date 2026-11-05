@@ -1,0 +1,48 @@
+
+Sistema de gestión comercial
+1. Gestión de productos.
+2. Registro de ventas.
+3. Control de inventario.
+4. Reportes y estadísticas.
+5. Salir.
+Seleccioná una opción: 
+Gestión de productos
+1. Registrar producto.
+2. Consultar por código.
+3. Listar productos.
+4. Modificar producto.
+5. Desactivar producto.
+6. Volver al menú principal.
+Seleccioná una opción: Código: Nombre: Categoría: Precio: Existencia inicial: Stock mínimo: Producto registrado correctamente.
+
+Gestión de productos
+1. Registrar producto.
+2. Consultar por código.
+3. Listar productos.
+4. Modificar producto.
+5. Desactivar producto.
+6. Volver al menú principal.
+Seleccioná una opción: Código: 
+Código: P01
+Nombre: Cuaderno
+Categoría: Utiles
+Precio: 12.50
+Cantidad disponible: 3
+Stock mínimo: 1
+Estado: Activo
+
+Gestión de productos
+1. Registrar producto.
+2. Consultar por código.
+3. Listar productos.
+4. Modificar producto.
+5. Desactivar producto.
+6. Volver al menú principal.
+Seleccioná una opción: 
+Sistema de gestión comercial
+1. Gestión de productos.
+2. Registro de ventas.
+3. Control de inventario.
+4. Reportes y estadísticas.
+5. Salir.
+Seleccioná una opción: Hasta luego.

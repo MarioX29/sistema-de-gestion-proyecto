@@ -1,0 +1,104 @@
+
+Sistema de gestión comercial
+1. Gestión de productos.
+2. Registro de ventas.
+3. Control de inventario.
+4. Reportes y estadísticas.
+5. Salir.
+Seleccioná una opción: Opción incorrecta. Ingresá un número del 1 al 5.
+
+Sistema de gestión comercial
+1. Gestión de productos.
+2. Registro de ventas.
+3. Control de inventario.
+4. Reportes y estadísticas.
+5. Salir.
+Seleccioná una opción: 
+Gestión de productos
+1. Registrar producto.
+2. Consultar por código.
+3. Listar productos.
+4. Modificar producto.
+5. Desactivar producto.
+6. Volver al menú principal.
+Seleccioná una opción: Opción incorrecta. Ingresá un número del 1 al 6.
+
+Gestión de productos
+1. Registrar producto.
+2. Consultar por código.
+3. Listar productos.
+4. Modificar producto.
+5. Desactivar producto.
+6. Volver al menú principal.
+Seleccioná una opción: No hay productos registrados.
+
+Gestión de productos
+1. Registrar producto.
+2. Consultar por código.
+3. Listar productos.
+4. Modificar producto.
+5. Desactivar producto.
+6. Volver al menú principal.
+Seleccioná una opción: Código: El código es obligatorio.
+Código: Nombre: El nombre es obligatorio.
+Nombre: Categoría: La categoría es obligatoria.
+Categoría: Precio: Precio inválido. Ingresá un número finito mayor o igual a cero, con punto decimal.
+Precio: Precio inválido. Ingresá un número finito mayor o igual a cero, con punto decimal.
+Precio: Existencia inicial: Existencia inicial: valor inválido. Ingresá un entero mayor o igual a cero dentro del rango admitido.
+Existencia inicial: Existencia inicial: valor inválido. Ingresá un entero mayor o igual a cero dentro del rango admitido.
+Existencia inicial: Stock mínimo: Stock mínimo: valor inválido. Ingresá un entero mayor o igual a cero dentro del rango admitido.
+Stock mínimo: Stock mínimo: valor inválido. Ingresá un entero mayor o igual a cero dentro del rango admitido.
+Stock mínimo: Producto registrado correctamente.
+
+Gestión de productos
+1. Registrar producto.
+2. Consultar por código.
+3. Listar productos.
+4. Modificar producto.
+5. Desactivar producto.
+6. Volver al menú principal.
+Seleccioná una opción: Código: El código ya está registrado.
+Código: Nombre: Categoría: Precio: Existencia inicial: Stock mínimo: Producto registrado correctamente.
+
+Gestión de productos
+1. Registrar producto.
+2. Consultar por código.
+3. Listar productos.
+4. Modificar producto.
+5. Desactivar producto.
+6. Volver al menú principal.
+Seleccioná una opción: Código: No existe un producto con ese código.
+
+Gestión de productos
+1. Registrar producto.
+2. Consultar por código.
+3. Listar productos.
+4. Modificar producto.
+5. Desactivar producto.
+6. Volver al menú principal.
+Seleccioná una opción: Código: 
+Código: P01
+Nombre: Cuaderno
+Categoría: Útiles
+Precio: 0.00
+Cantidad disponible: 0
+Stock mínimo: 1
+Estado: Activo
+¿Desactivar el producto? (S/N): Respuesta inválida. Ingresá S o N.
+¿Desactivar el producto? (S/N): Desactivación cancelada.
+
+Gestión de productos
+1. Registrar producto.
+2. Consultar por código.
+3. Listar productos.
+4. Modificar producto.
+5. Desactivar producto.
+6. Volver al menú principal.
+Seleccioná una opción: 
+Sistema de gestión comercial
+1. Gestión de productos.
+2. Registro de ventas.
+3. Control de inventario.
+4. Reportes y estadísticas.
+5. Salir.
+Seleccioná una opción: Hasta luego.

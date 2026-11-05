@@ -1,0 +1,499 @@
+=== conservar ===
+ENTRADAS (lineas vacias = Enter):
+P01
+
+
+
+
+
+
+SALIDA REAL:
+Codigo
+> Codigo: P01 Nombre: Cuaderno Categoria: Utiles
+Precio: 12.5 Cantidad: 3 Minimo: 1
+Estado: Activo
+Nombre: Enter conserva
+> Categoria: Enter conserva
+> Precio: Enter conserva
+> Cantidad: Enter conserva
+> Stock minimo: Enter conserva
+> No se realizaron cambios.
+
+
+=== consulta ===
+ENTRADAS (lineas vacias = Enter):
+ p01 
+
+SALIDA REAL:
+Codigo
+> Codigo: P01 Nombre: Cuaderno Categoria: Utiles
+Precio: 12.5 Cantidad: 3 Minimo: 1
+Estado: Activo
+
+
+=== consulta_inexistente ===
+ENTRADAS (lineas vacias = Enter):
+X
+
+SALIDA REAL:
+Codigo
+> No existe un producto con ese codigo.
+
+
+=== desactivar ===
+ENTRADAS (lineas vacias = Enter):
+P01
+x
+s
+
+SALIDA REAL:
+Codigo
+> Codigo: P01 Nombre: Cuaderno Categoria: Utiles
+Precio: 12.5 Cantidad: 3 Minimo: 1
+Estado: Activo
+Desactivar producto (S/N)
+> Respuesta invalida.
+Desactivar producto (S/N)
+> Producto desactivado correctamente.
+
+
+=== entrada ===
+ENTRADAS (lineas vacias = Enter):
+P01
+4
+Reposicion
+S
+
+SALIDA REAL:
+Codigo
+> Codigo: P01 Nombre: Cuaderno Categoria: Utiles
+Precio: 12.5 Cantidad: 3 Minimo: 1
+Estado: Activo
+Cantidad de entrada
+> Descripcion
+> Cantidad resultante: 7
+Confirmar entrada (S/N)
+> Movimiento: 20261104 183703 P01 Entrada 4 Reposicion
+Entrada registrada. Cantidad disponible: 7
+
+
+=== entrada_inactivo ===
+ENTRADAS (lineas vacias = Enter):
+P02
+3
+Compra
+S
+
+SALIDA REAL:
+Codigo
+> Codigo: P02 Nombre: Lapiz Categoria: Utiles
+Precio: 2 Cantidad: 0 Minimo: 2
+Estado: Inactivo
+Cantidad de entrada
+> Descripcion
+> Cantidad resultante: 3
+Confirmar entrada (S/N)
+> Movimiento: 20261104 183703 P02 Entrada 3 Compra
+Entrada registrada. Cantidad disponible: 3
+
+
+=== entrada_invalidos ===
+ENTRADAS (lineas vacias = Enter):
+P01
+0
+-2
+3
+
+Compra
+x
+N
+
+SALIDA REAL:
+Codigo
+> Codigo: P01 Nombre: Cuaderno Categoria: Utiles
+Precio: 12.5 Cantidad: 3 Minimo: 1
+Estado: Activo
+Cantidad de entrada
+> La cantidad debe ser mayor que cero.
+Cantidad de entrada
+> Numero invalido. Usar digitos, y punto solo para precio.
+Cantidad de entrada
+> Descripcion
+> Campo obligatorio.
+Descripcion
+> Cantidad resultante: 6
+Confirmar entrada (S/N)
+> Respuesta invalida.
+Confirmar entrada (S/N)
+> Entrada cancelada.
+
+
+=== fecha_invalida ===
+ENTRADAS (lineas vacias = Enter):
+2026-02-29
+2026-11-01
+2026-10-31
+2026-11-03
+
+SALIDA REAL:
+Fecha inicial (YYYY-MM-DD, Enter cancela)
+> Fecha invalida.
+Fecha inicial (YYYY-MM-DD, Enter cancela)
+> Fecha final (YYYY-MM-DD, Enter cancela)
+> La fecha final no puede ser anterior a la inicial.
+Fecha final (YYYY-MM-DD, Enter cancela)
+> Ventas del periodo: 2
+Dias del periodo: 3
+Ingresos del periodo: 32.48
+Promedio de ventas por dia: 0.6666666667
+Promedio de ingresos por dia: 10.83
+
+
+=== inventario ===
+ENTRADAS (lineas vacias = Enter):
+x
+1
+2
+3
+
+SALIDA REAL:
+1. Existencias  2. Stock minimo  3. Volver
+> Opcion incorrecta.
+1. Existencias  2. Stock minimo  3. Volver
+> Codigo: P01 Nombre: Cuaderno Categoria: Utiles
+Precio: 12.5 Cantidad: 3 Minimo: 1
+Estado: Activo
+Codigo: P02 Nombre: Lapiz Categoria: Utiles
+Precio: 2 Cantidad: 0 Minimo: 2
+Estado: Inactivo
+1. Existencias  2. Stock minimo  3. Volver
+> Codigo: P02 Nombre: Lapiz Categoria: Utiles
+Precio: 2 Cantidad: 0 Minimo: 2
+Estado: Inactivo
+1. Existencias  2. Stock minimo  3. Volver
+> 
+
+=== listado ===
+ENTRADAS (lineas vacias = Enter):
+
+SALIDA REAL:
+Codigo: P01 Nombre: Cuaderno Categoria: Utiles
+Precio: 12.5 Cantidad: 3 Minimo: 1
+Estado: Activo
+Codigo: P02 Nombre: Lapiz Categoria: Utiles
+Precio: 2 Cantidad: 0 Minimo: 2
+Estado: Inactivo
+
+
+=== menu ===
+ENTRADAS (lineas vacias = Enter):
+abc
+1
+2
+3
+4
+5
+
+SALIDA REAL:
+1. Productos  2. Ventas  3. Inventario  4. Reportes  5. Salir
+> Opcion incorrecta.
+1. Productos  2. Ventas  3. Inventario  4. Reportes  5. Salir
+> Llamar menu_productos(productos,movimientos)
+1. Productos  2. Ventas  3. Inventario  4. Reportes  5. Salir
+> Llamar registrar_venta(productos,ventas,movimientos)
+1. Productos  2. Ventas  3. Inventario  4. Reportes  5. Salir
+> Llamar menu_inventario(productos,movimientos)
+1. Productos  2. Ventas  3. Inventario  4. Reportes  5. Salir
+> Llamar menu_reportes(productos,ventas)
+1. Productos  2. Ventas  3. Inventario  4. Reportes  5. Salir
+> Hasta luego.
+
+
+=== modificar ===
+ENTRADAS (lineas vacias = Enter):
+P01
+Nuevo
+
+13
+5
+1
+
+SALIDA REAL:
+Codigo
+> Codigo: P01 Nombre: Cuaderno Categoria: Utiles
+Precio: 12.5 Cantidad: 3 Minimo: 1
+Estado: Activo
+Nombre: Enter conserva
+> Categoria: Enter conserva
+> Precio: Enter conserva
+> Cantidad: Enter conserva
+> Stock minimo: Enter conserva
+> Registrar movimiento con fecha 20261104 cantidad 2
+Tipo: Ajuste de entrada
+Producto modificado correctamente.
+
+
+=== modificar_inexistente ===
+ENTRADAS (lineas vacias = Enter):
+X
+
+SALIDA REAL:
+Codigo
+> No existe un producto con ese codigo.
+
+
+=== movimientos ===
+ENTRADAS (lineas vacias = Enter):
+
+SALIDA REAL:
+2026-11-01 09:00:00 | P01 | Entrada inicial | Cantidad: 3 | Registro del producto
+
+
+=== no_desactivar ===
+ENTRADAS (lineas vacias = Enter):
+P01
+N
+
+SALIDA REAL:
+Codigo
+> Codigo: P01 Nombre: Cuaderno Categoria: Utiles
+Precio: 12.5 Cantidad: 3 Minimo: 1
+Estado: Activo
+Desactivar producto (S/N)
+> Desactivacion cancelada.
+
+
+=== promedio ===
+ENTRADAS (lineas vacias = Enter):
+2026-11-01
+2026-11-03
+
+SALIDA REAL:
+Fecha inicial (YYYY-MM-DD, Enter cancela)
+> Fecha final (YYYY-MM-DD, Enter cancela)
+> Ventas del periodo: 2
+Dias del periodo: 3
+Ingresos del periodo: 32.48
+Promedio de ventas por dia: 0.6666666667
+Promedio de ingresos por dia: 10.83
+
+
+=== promedio_cancelado ===
+ENTRADAS (lineas vacias = Enter):
+
+
+SALIDA REAL:
+Fecha inicial (YYYY-MM-DD, Enter cancela)
+> Reporte cancelado.
+
+
+=== registro ===
+ENTRADAS (lineas vacias = Enter):
+P03
+Goma
+Utiles
+1.5
+4
+1
+
+SALIDA REAL:
+Codigo
+> Nombre
+> Categoria
+> Precio
+> Existencia inicial
+> Stock minimo
+> Producto registrado correctamente.
+Codigo: P03 Nombre: Goma Categoria: Utiles
+Precio: 1.5 Cantidad: 4 Minimo: 1
+Estado: Activo
+Entrada inicial: 4
+
+
+=== registro_invalidos ===
+ENTRADAS (lineas vacias = Enter):
+
+P01
+P03
+
+Goma
+Utiles
+-1
+1.5
+abc
+4
+1
+
+SALIDA REAL:
+Codigo
+> Campo obligatorio.
+Codigo
+> El codigo ya esta registrado.
+Codigo
+> Nombre
+> Campo obligatorio.
+Nombre
+> Categoria
+> Precio
+> Numero invalido. Usar digitos, y punto solo para precio.
+Precio
+> Existencia inicial
+> Numero invalido. Usar digitos, y punto solo para precio.
+Existencia inicial
+> Stock minimo
+> Producto registrado correctamente.
+Codigo: P03 Nombre: Goma Categoria: Utiles
+Precio: 1.5 Cantidad: 4 Minimo: 1
+Estado: Activo
+Entrada inicial: 4
+
+
+=== reportes ===
+ENTRADAS (lineas vacias = Enter):
+1
+2
+3
+4
+5
+6
+8
+
+SALIDA REAL:
+1. Productos  2. Minimos  3. Historial  4. Ingresos  5. Mas vendido  6. Valor  7. Promedio  8. Volver
+> Codigo: P01 Nombre: Cuaderno Categoria: Utiles
+Precio: 12.5 Cantidad: 3 Minimo: 1
+Estado: Activo
+Codigo: P02 Nombre: Lapiz Categoria: Utiles
+Precio: 2 Cantidad: 0 Minimo: 2
+Estado: Inactivo
+1. Productos  2. Minimos  3. Historial  4. Ingresos  5. Mas vendido  6. Valor  7. Promedio  8. Volver
+> Codigo: P02 Nombre: Lapiz Categoria: Utiles
+Precio: 2 Cantidad: 0 Minimo: 2
+Estado: Inactivo
+1. Productos  2. Minimos  3. Historial  4. Ingresos  5. Mas vendido  6. Valor  7. Promedio  8. Volver
+> Venta: 1 Fecha: 2026-11-01
+P01 Cuaderno Cantidad: 1 Precio: 12.5 Subtotal: 12.5
+P02 Lapiz Cantidad: 2 Precio: 2 Subtotal: 4
+Subtotal: 16.5 IVA: 1.98 Total: 18.48
+Venta: 2 Fecha: 2026-11-03
+P01 Cuaderno Cantidad: 1 Precio: 12.5 Subtotal: 12.5
+Subtotal: 12.5 IVA: 1.5 Total: 14
+1. Productos  2. Minimos  3. Historial  4. Ingresos  5. Mas vendido  6. Valor  7. Promedio  8. Volver
+> Ingresos: 32.48
+1. Productos  2. Minimos  3. Historial  4. Ingresos  5. Mas vendido  6. Valor  7. Promedio  8. Volver
+> P01 Unidades: 2
+P02 Unidades: 2
+1. Productos  2. Minimos  3. Historial  4. Ingresos  5. Mas vendido  6. Valor  7. Promedio  8. Volver
+> Valor del inventario: 37.5
+1. Productos  2. Minimos  3. Historial  4. Ingresos  5. Mas vendido  6. Valor  7. Promedio  8. Volver
+> Volver al principal.
+
+
+=== sin_ventas_periodo ===
+ENTRADAS (lineas vacias = Enter):
+2020-01-01
+2020-01-01
+
+SALIDA REAL:
+Fecha inicial (YYYY-MM-DD, Enter cancela)
+> Fecha final (YYYY-MM-DD, Enter cancela)
+> Ventas del periodo: 0
+Dias del periodo: 1
+Ingresos del periodo: 0
+Promedio de ventas por dia: 0
+Promedio de ingresos por dia: 0
+
+
+=== venta ===
+ENTRADAS (lineas vacias = Enter):
+P01
+2
+
+S
+
+SALIDA REAL:
+Codigo del producto: Enter para finalizar
+> Cantidad a vender
+> Codigo del producto: Enter para finalizar
+> P01 Cantidad: 2 Subtotal: 25
+Subtotal: 25 IVA: 3 Total: 28
+Confirmar venta (S/N)
+> Venta numero: 1 Fecha: 20261104 Hora: 183703
+Salida por venta: P01 Cantidad: 2
+Venta registrada correctamente.
+
+
+=== venta_cancelada ===
+ENTRADAS (lineas vacias = Enter):
+P01
+2
+
+N
+
+SALIDA REAL:
+Codigo del producto: Enter para finalizar
+> Cantidad a vender
+> Codigo del producto: Enter para finalizar
+> P01 Cantidad: 2 Subtotal: 25
+Subtotal: 25 IVA: 3 Total: 28
+Confirmar venta (S/N)
+> Venta cancelada.
+
+
+=== venta_invalidos ===
+ENTRADAS (lineas vacias = Enter):
+X
+P02
+P01
+0
+4
+2
+P01
+2
+1
+P01
+
+S
+
+SALIDA REAL:
+Codigo del producto: Enter para finalizar
+> No existe un producto con ese codigo.
+Codigo del producto: Enter para finalizar
+> El producto esta inactivo.
+Codigo del producto: Enter para finalizar
+> Cantidad a vender
+> La cantidad debe ser mayor que cero.
+Cantidad a vender
+> Inventario insuficiente.
+Cantidad a vender
+> Codigo del producto: Enter para finalizar
+> Cantidad a vender
+> Inventario insuficiente.
+Cantidad a vender
+> Codigo del producto: Enter para finalizar
+> No hay mas existencias disponibles.
+Codigo del producto: Enter para finalizar
+> P01 Cantidad: 3 Subtotal: 37.5
+Subtotal: 37.5 IVA: 4.5 Total: 42
+Confirmar venta (S/N)
+> Venta numero: 1 Fecha: 20261104 Hora: 183703
+Salida por venta: P01 Cantidad: 3
+Venta registrada correctamente.
+
+
+=== venta_vacia ===
+ENTRADAS (lineas vacias = Enter):
+
+
+SALIDA REAL:
+Codigo del producto: Enter para finalizar
+> Venta cancelada. No se agregaron productos.
+
+
+=== ya_inactivo ===
+ENTRADAS (lineas vacias = Enter):
+P02
+
+SALIDA REAL:
+Codigo
+> El producto ya esta inactivo.

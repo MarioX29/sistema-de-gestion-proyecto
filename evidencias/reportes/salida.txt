@@ -1,0 +1,213 @@
+
+Sistema de gestión comercial
+1. Gestión de productos.
+2. Registro de ventas.
+3. Control de inventario.
+4. Reportes y estadísticas.
+5. Salir.
+Seleccioná una opción: 
+Gestión de productos
+1. Registrar producto.
+2. Consultar por código.
+3. Listar productos.
+4. Modificar producto.
+5. Desactivar producto.
+6. Volver al menú principal.
+Seleccioná una opción: Código: Nombre: Categoría: Precio: Existencia inicial: Stock mínimo: Producto registrado correctamente.
+
+Gestión de productos
+1. Registrar producto.
+2. Consultar por código.
+3. Listar productos.
+4. Modificar producto.
+5. Desactivar producto.
+6. Volver al menú principal.
+Seleccioná una opción: Código: Nombre: Categoría: Precio: Existencia inicial: Stock mínimo: Producto registrado correctamente.
+
+Gestión de productos
+1. Registrar producto.
+2. Consultar por código.
+3. Listar productos.
+4. Modificar producto.
+5. Desactivar producto.
+6. Volver al menú principal.
+Seleccioná una opción: 
+Sistema de gestión comercial
+1. Gestión de productos.
+2. Registro de ventas.
+3. Control de inventario.
+4. Reportes y estadísticas.
+5. Salir.
+Seleccioná una opción: Código del producto (Enter para finalizar): Disponible para agregar: 5
+Cantidad a vender: Código del producto (Enter para finalizar): Disponible para agregar: 3
+Cantidad a vender: Código del producto (Enter para finalizar): P1 - Cuaderno | Cantidad: 2 | Precio: 10.00 | Subtotal: 20.00
+P2 - Lápiz | Cantidad: 1 | Precio: 2.50 | Subtotal: 2.50
+Subtotal: 22.50
+IVA (12 %): 2.70
+Total: 25.20
+¿Confirmar venta? (S/N): Venta registrada correctamente. Número: 1
+
+Sistema de gestión comercial
+1. Gestión de productos.
+2. Registro de ventas.
+3. Control de inventario.
+4. Reportes y estadísticas.
+5. Salir.
+Seleccioná una opción: 
+Control de inventario
+1. Consultar existencias.
+2. Registrar entrada.
+3. Productos en stock mínimo o por debajo.
+4. Historial de movimientos.
+5. Volver al menú principal.
+Seleccioná una opción: Código: P1 - Cuaderno | Cantidad: 3 | Mínimo: 3 | Estado: Activo
+Cantidad de entrada: Descripción: Cantidad resultante: 4
+¿Confirmar entrada? (S/N): Entrada registrada correctamente. Cantidad disponible: 4
+
+Control de inventario
+1. Consultar existencias.
+2. Registrar entrada.
+3. Productos en stock mínimo o por debajo.
+4. Historial de movimientos.
+5. Volver al menú principal.
+Seleccioná una opción: 2026-11-01 15:50:49 | P1 | Entrada inicial | Cantidad: 5 | Registro del producto
+2026-11-01 15:50:49 | P2 | Entrada inicial | Cantidad: 3 | Registro del producto
+2026-11-01 15:50:49 | P1 | Salida por venta | Cantidad: 2 | Venta número 1
+2026-11-01 15:50:49 | P2 | Salida por venta | Cantidad: 1 | Venta número 1
+2026-11-01 15:50:49 | P1 | Entrada | Cantidad: 1 | Compra
+
+Control de inventario
+1. Consultar existencias.
+2. Registrar entrada.
+3. Productos en stock mínimo o por debajo.
+4. Historial de movimientos.
+5. Volver al menú principal.
+Seleccioná una opción: 
+Sistema de gestión comercial
+1. Gestión de productos.
+2. Registro de ventas.
+3. Control de inventario.
+4. Reportes y estadísticas.
+5. Salir.
+Seleccioná una opción: 
+Reportes y estadísticas
+1. Listado general de productos.
+2. Productos en stock mínimo o por debajo.
+3. Historial de ventas.
+4. Total de ingresos por ventas.
+5. Producto con más unidades vendidas.
+6. Valor total del inventario.
+7. Promedio de ventas por período.
+8. Volver al menú principal.
+Seleccioná una opción: 
+Código: P1
+Nombre: Cuaderno
+Categoría: Útiles
+Precio: 10.00
+Cantidad disponible: 4
+Stock mínimo: 3
+Estado: Activo
+
+Código: P2
+Nombre: Lápiz
+Categoría: Útiles
+Precio: 2.50
+Cantidad disponible: 2
+Stock mínimo: 1
+Estado: Activo
+
+Reportes y estadísticas
+1. Listado general de productos.
+2. Productos en stock mínimo o por debajo.
+3. Historial de ventas.
+4. Total de ingresos por ventas.
+5. Producto con más unidades vendidas.
+6. Valor total del inventario.
+7. Promedio de ventas por período.
+8. Volver al menú principal.
+Seleccioná una opción: No hay productos en el stock mínimo o por debajo.
+
+Reportes y estadísticas
+1. Listado general de productos.
+2. Productos en stock mínimo o por debajo.
+3. Historial de ventas.
+4. Total de ingresos por ventas.
+5. Producto con más unidades vendidas.
+6. Valor total del inventario.
+7. Promedio de ventas por período.
+8. Volver al menú principal.
+Seleccioná una opción: 
+Venta número: 1
+Fecha: 2026-11-01 15:50:49
+P1 - Cuaderno | Cantidad: 2 | Precio: 10.00 | Subtotal: 20.00
+P2 - Lápiz | Cantidad: 1 | Precio: 2.50 | Subtotal: 2.50
+Subtotal: 22.50
+IVA (12 %): 2.70
+Total: 25.20
+
+Reportes y estadísticas
+1. Listado general de productos.
+2. Productos en stock mínimo o por debajo.
+3. Historial de ventas.
+4. Total de ingresos por ventas.
+5. Producto con más unidades vendidas.
+6. Valor total del inventario.
+7. Promedio de ventas por período.
+8. Volver al menú principal.
+Seleccioná una opción: Total de ingresos por ventas (incluye IVA): 25.20
+
+Reportes y estadísticas
+1. Listado general de productos.
+2. Productos en stock mínimo o por debajo.
+3. Historial de ventas.
+4. Total de ingresos por ventas.
+5. Producto con más unidades vendidas.
+6. Valor total del inventario.
+7. Promedio de ventas por período.
+8. Volver al menú principal.
+Seleccioná una opción: Productos con mayor cantidad de unidades vendidas:
+P1 - Cuaderno | Unidades: 2
+
+Reportes y estadísticas
+1. Listado general de productos.
+2. Productos en stock mínimo o por debajo.
+3. Historial de ventas.
+4. Total de ingresos por ventas.
+5. Producto con más unidades vendidas.
+6. Valor total del inventario.
+7. Promedio de ventas por período.
+8. Volver al menú principal.
+Seleccioná una opción: Valor del inventario a precio de venta (incluye inactivos): 45.00
+
+Reportes y estadísticas
+1. Listado general de productos.
+2. Productos en stock mínimo o por debajo.
+3. Historial de ventas.
+4. Total de ingresos por ventas.
+5. Producto con más unidades vendidas.
+6. Valor total del inventario.
+7. Promedio de ventas por período.
+8. Volver al menú principal.
+Seleccioná una opción: Fecha inicial (YYYY-MM-DD, Enter para cancelar): Fecha final (YYYY-MM-DD, Enter para cancelar): Ventas del período: 1
+Días del período (incluye días sin ventas): 1
+Ingresos del período (incluye IVA): 25.20
+Promedio de ventas por día: 1.00
+Promedio de ingresos por día: 25.20
+
+Reportes y estadísticas
+1. Listado general de productos.
+2. Productos en stock mínimo o por debajo.
+3. Historial de ventas.
+4. Total de ingresos por ventas.
+5. Producto con más unidades vendidas.
+6. Valor total del inventario.
+7. Promedio de ventas por período.
+8. Volver al menú principal.
+Seleccioná una opción: 
+Sistema de gestión comercial
+1. Gestión de productos.
+2. Registro de ventas.
+3. Control de inventario.
+4. Reportes y estadísticas.
+5. Salir.
+Seleccioná una opción: Hasta luego.

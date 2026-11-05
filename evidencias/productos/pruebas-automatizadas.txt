@@ -1,0 +1,26 @@
+PASS: probar_salida
+PASS: probar_opciones_invalidas
+PASS: probar_modulos_pendientes
+PASS: probar_registro_normal
+PASS: probar_obligatorios
+PASS: probar_codigo_repetido
+PASS: probar_precio_invalido
+PASS: probar_existencia_invalida
+PASS: probar_decimales
+PASS: probar_flujo_completo
+PASS: probar_sin_persistencia
+PASS: probar_ceros_y_minimo_superior
+PASS: probar_stock_minimo_invalido
+PASS: probar_consulta
+PASS: probar_productos_inexistentes
+PASS: probar_catalogo_vacio
+PASS: probar_listado
+PASS: probar_modificacion
+PASS: probar_modificacion_conservar
+PASS: probar_modificacion_invalida
+PASS: probar_lectura_interrumpida
+PASS: probar_desactivacion
+PASS: probar_cancelar_desactivacion
+PASS: probar_codigo_inactivo
+PASS: probar_submenu_y_operaciones
+25 pruebas completadas correctamente.

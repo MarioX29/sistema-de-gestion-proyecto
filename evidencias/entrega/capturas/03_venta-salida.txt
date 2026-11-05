@@ -1,0 +1,45 @@
+
+Sistema de gestión comercial
+1. Gestión de productos.
+2. Registro de ventas.
+3. Control de inventario.
+4. Reportes y estadísticas.
+5. Salir.
+Seleccioná una opción: 
+Gestión de productos
+1. Registrar producto.
+2. Consultar por código.
+3. Listar productos.
+4. Modificar producto.
+5. Desactivar producto.
+6. Volver al menú principal.
+Seleccioná una opción: Código: Nombre: Categoría: Precio: Existencia inicial: Stock mínimo: Producto registrado correctamente.
+
+Gestión de productos
+1. Registrar producto.
+2. Consultar por código.
+3. Listar productos.
+4. Modificar producto.
+5. Desactivar producto.
+6. Volver al menú principal.
+Seleccioná una opción: 
+Sistema de gestión comercial
+1. Gestión de productos.
+2. Registro de ventas.
+3. Control de inventario.
+4. Reportes y estadísticas.
+5. Salir.
+Seleccioná una opción: Código del producto (Enter para finalizar): Disponible para agregar: 3
+Cantidad a vender: Código del producto (Enter para finalizar): P01 - Cuaderno | Cantidad: 2 | Precio: 12.50 | Subtotal: 25.00
+Subtotal: 25.00
+IVA (12 %): 3.00
+Total: 28.00
+¿Confirmar venta? (S/N): Venta registrada correctamente. Número: 1
+
+Sistema de gestión comercial
+1. Gestión de productos.
+2. Registro de ventas.
+3. Control de inventario.
+4. Reportes y estadísticas.
+5. Salir.
+Seleccioná una opción: Hasta luego.

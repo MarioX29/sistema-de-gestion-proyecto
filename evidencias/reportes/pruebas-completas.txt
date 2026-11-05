@@ -1,0 +1,76 @@
+
+Ejecutando probar_sistema.py
+PASS: probar_salida
+PASS: probar_opciones_invalidas
+PASS: probar_navegacion_modulos
+PASS: probar_registro_normal
+PASS: probar_obligatorios
+PASS: probar_codigo_repetido
+PASS: probar_precio_invalido
+PASS: probar_existencia_invalida
+PASS: probar_decimales
+PASS: probar_flujo_completo
+PASS: probar_sin_persistencia
+PASS: probar_ceros_y_minimo_superior
+PASS: probar_stock_minimo_invalido
+PASS: probar_consulta
+PASS: probar_productos_inexistentes
+PASS: probar_catalogo_vacio
+PASS: probar_listado
+PASS: probar_modificacion
+PASS: probar_modificacion_conservar
+PASS: probar_modificacion_invalida
+PASS: probar_lectura_interrumpida
+PASS: probar_desactivacion
+PASS: probar_cancelar_desactivacion
+PASS: probar_codigo_inactivo
+PASS: probar_submenu_y_operaciones
+25 pruebas completadas correctamente.
+
+Ejecutando probar_ventas.py
+PASS: probar_venta_multiple
+PASS: probar_repetidos_y_stock
+PASS: probar_cantidades_invalidas
+PASS: probar_no_disponibles
+PASS: probar_codigos_invalidos
+PASS: probar_cancelaciones
+PASS: probar_confirmacion_y_numeracion
+PASS: probar_historial_independiente
+PASS: probar_redondeo_y_gratis
+PASS: probar_desbordamiento
+PASS: probar_lectura_interrumpida
+PASS: probar_desbordamiento_con_carrito
+PASS: probar_consola
+13 pruebas de ventas completadas correctamente.
+
+Ejecutando probar_inventario.py
+PASS: probar_entrada
+PASS: probar_validaciones
+PASS: probar_cancelacion_e_inexistente
+PASS: probar_vacios
+PASS: probar_limite_minimo
+PASS: probar_inactivo
+PASS: probar_registro_inicial
+PASS: probar_ajustes
+PASS: probar_salidas_ventas
+PASS: probar_historial
+PASS: probar_lectura_interrumpida
+PASS: probar_consola
+12 pruebas de inventario completadas correctamente.
+
+Ejecutando probar_reportes.py
+PASS: probar_ingresos
+PASS: probar_empate_y_acumulacion
+PASS: probar_valor_inactivos
+PASS: probar_historial
+PASS: probar_periodo_inclusivo
+PASS: probar_periodo_sin_ventas
+PASS: probar_fechas_invalidas
+PASS: probar_cancelacion
+PASS: probar_vacios
+PASS: probar_desbordamientos
+PASS: probar_sin_modificar
+PASS: probar_consola_completa
+12 pruebas de reportes completadas correctamente.
+
+Todas las suites terminaron correctamente.
