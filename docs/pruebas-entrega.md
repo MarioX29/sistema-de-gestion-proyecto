@@ -4,6 +4,8 @@
 
 El registro de `python3 tests/probar_todo.py` contiene **62 pruebas aprobadas**. Los resultados de productos, ventas, inventario y reportes están en la [salida completa](../evidencias/entrega/python-pruebas.txt).
 
+La comprobación de inicio agrega dos casos: con zona horaria disponible, el menú abre normalmente; sin ella, aparece el comando de instalación y el programa termina sin traceback. La ejecución de los 64 casos está en [python-pruebas-inicio.txt](../evidencias/entrega/python-pruebas-inicio.txt).
+
 ## Procesos en PSeInt
 
 Se revisó la sintaxis de 12 archivos y se ejecutaron los 26 escenarios siguientes con el intérprete oficial 20250314 y el perfil del proyecto. Cada archivo inicia con datos de ejemplo para probar su proceso por separado.

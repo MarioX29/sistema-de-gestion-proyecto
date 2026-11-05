@@ -47,4 +47,4 @@ Desde la carpeta del proyecto:
 python tests/probar_todo.py
 ```
 
-Hay 62 pruebas de productos, ventas, inventario y reportes. Los archivos de PSeInt representan procesos separados y usan datos de ejemplo.
+Hay 64 pruebas de inicio, productos, ventas, inventario y reportes. Los archivos de PSeInt representan procesos separados y usan datos de ejemplo.
