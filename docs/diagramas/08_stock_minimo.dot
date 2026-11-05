@@ -1,0 +1,30 @@
+digraph G {
+graph [rankdir=TB, bgcolor="white", pad="0.25", nodesep="0.35", ranksep="0.5", label="Consulta de stock minimo", labelloc=t, fontsize=16];
+node [fontname="DejaVu Sans", fontsize=11, margin="0.14,0.09"];
+edge [fontname="DejaVu Sans", fontsize=10, arrowsize=0.7];
+a [shape=ellipse, label="Inicio"];
+b [shape=diamond, label="Hay productos?"];
+c [shape=parallelogram, label="Avisar catalogo vacio"];
+d [shape=box, label="Crear lista bajos vacia;\nrecorrer productos"];
+e [shape=diamond, label="Queda un producto?"];
+f [shape=diamond, label="Existencia menor o igual al\nminimo?"];
+g [shape=box, label="Agregar producto a bajos"];
+h [shape=diamond, label="Lista bajos vacia?"];
+i [shape=parallelogram, label="Avisar que no hay alertas"];
+j [shape=parallelogram, label="Mostrar datos de cada producto\nen bajos"];
+z [shape=ellipse, label="Volver al submenu"];
+a -> b [label=""];
+b -> c [label="No"];
+c -> z [label=""];
+b -> d [label="Si"];
+d -> e [label=""];
+e -> f [label="Si"];
+f -> g [label="Si"];
+g -> e [label="Siguiente"];
+f -> e [label="No / siguiente"];
+e -> h [label="No"];
+h -> i [label="Si"];
+h -> j [label="No"];
+i -> z [label=""];
+j -> z [label=""];
+}

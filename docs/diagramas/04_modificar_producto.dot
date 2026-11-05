@@ -1,0 +1,38 @@
+digraph G {
+graph [rankdir=TB, bgcolor="white", pad="0.25", nodesep="0.35", ranksep="0.5", label="Modificacion de productos", labelloc=t, fontsize=16];
+node [fontname="DejaVu Sans", fontsize=11, margin="0.14,0.09"];
+edge [fontname="DejaVu Sans", fontsize=10, arrowsize=0.7];
+a [shape=ellipse, label="Inicio"];
+b [shape=diamond, label="Hay productos?"];
+c [shape=parallelogram, label="Avisar catalogo vacio"];
+d [shape=box, label="Leer codigo y buscar", peripheries=2];
+e [shape=diamond, label="Encontrado?"];
+f [shape=parallelogram, label="Avisar codigo inexistente"];
+g [shape=parallelogram, label="Mostrar ficha actual"];
+h [shape=box, label="Leer campos validos; Enter\nconserva valor", peripheries=2];
+i [shape=diamond, label="Hay cambios?"];
+j [shape=parallelogram, label="Mostrar sin cambios"];
+k [shape=diamond, label="Cambio la existencia?"];
+l [shape=box, label="Preparar ajuste por diferencia\ncon fecha"];
+m [shape=box, label="Aplicar datos y agregar ajuste\nsi corresponde"];
+n [shape=parallelogram, label="Mostrar modificacion correcta"];
+z [shape=ellipse, label="Volver a productos"];
+a -> b [label=""];
+b -> c [label="No"];
+c -> z [label=""];
+b -> d [label="Si"];
+d -> e [label=""];
+e -> f [label="No"];
+f -> z [label=""];
+e -> g [label="Si"];
+g -> h [label=""];
+h -> i [label=""];
+i -> j [label="No"];
+j -> z [label=""];
+i -> k [label="Si"];
+k -> l [label="Si"];
+l -> m [label=""];
+k -> m [label="No"];
+m -> n [label=""];
+n -> z [label=""];
+}

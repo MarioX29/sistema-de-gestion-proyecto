@@ -1,0 +1,20 @@
+digraph G {
+graph [rankdir=TB, bgcolor="white", pad="0.25", nodesep="0.35", ranksep="0.5", label="Listado de productos y\nexistencias", labelloc=t, fontsize=16];
+node [fontname="DejaVu Sans", fontsize=11, margin="0.14,0.09"];
+edge [fontname="DejaVu Sans", fontsize=10, arrowsize=0.7];
+a [shape=ellipse, label="Inicio"];
+b [shape=diamond, label="Lista de productos vacia?"];
+c [shape=parallelogram, label="Avisar catalogo vacio"];
+d [shape=box, label="Comenzar recorrido de\nproductos"];
+e [shape=diamond, label="Queda un producto?"];
+f [shape=parallelogram, label="Mostrar datos del producto,\nincluido estado"];
+z [shape=ellipse, label="Volver al submenu"];
+a -> b [label=""];
+b -> c [label="Si"];
+c -> z [label=""];
+b -> d [label="No"];
+d -> e [label=""];
+e -> f [label="Si"];
+f -> e [label="Siguiente"];
+e -> z [label="No"];
+}

@@ -1,0 +1,22 @@
+digraph G {
+graph [rankdir=TB, bgcolor="white", pad="0.25", nodesep="0.35", ranksep="0.5", label="Consulta por codigo", labelloc=t, fontsize=16];
+node [fontname="DejaVu Sans", fontsize=11, margin="0.14,0.09"];
+edge [fontname="DejaVu Sans", fontsize=10, arrowsize=0.7];
+a [shape=ellipse, label="Inicio"];
+b [shape=diamond, label="Hay productos?"];
+c [shape=parallelogram, label="Avisar catalogo vacio"];
+d [shape=box, label="Leer codigo obligatorio y\nbuscar", peripheries=2];
+e [shape=diamond, label="Producto encontrado?"];
+f [shape=parallelogram, label="Mostrar todos los datos y\nestado"];
+g [shape=parallelogram, label="Avisar codigo inexistente"];
+z [shape=ellipse, label="Volver a productos"];
+a -> b [label=""];
+b -> c [label="No"];
+c -> z [label=""];
+b -> d [label="Si"];
+d -> e [label=""];
+e -> f [label="Si"];
+e -> g [label="No"];
+f -> z [label=""];
+g -> z [label=""];
+}

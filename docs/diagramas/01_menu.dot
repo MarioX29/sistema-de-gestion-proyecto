@@ -1,0 +1,24 @@
+digraph G {
+graph [rankdir=TB, bgcolor="white", pad="0.25", nodesep="0.35", ranksep="0.5", label="Menu principal", labelloc=t, fontsize=16];
+node [fontname="DejaVu Sans", fontsize=11, margin="0.14,0.09"];
+edge [fontname="DejaVu Sans", fontsize=10, arrowsize=0.7];
+a [shape=ellipse, label="Inicio"];
+b [shape=box, label="Crear listas vacias:\nproductos, ventas, movimientos"];
+c [shape=parallelogram, label="Mostrar menu y leer opcion"];
+d [shape=diamond, label="Opcion = 5?"];
+e [shape=diamond, label="Opcion entre 1 y 4?"];
+f [shape=box, label="Llamar al modulo elegido", peripheries=2];
+g [shape=parallelogram, label="Mostrar opcion incorrecta"];
+h [shape=parallelogram, label="Mostrar despedida"];
+z [shape=ellipse, label="Fin"];
+a -> b [label=""];
+b -> c [label=""];
+c -> d [label=""];
+d -> h [label="Si"];
+h -> z [label=""];
+d -> e [label="No"];
+e -> f [label="Si"];
+f -> c [label="Volver del modulo"];
+e -> g [label="No"];
+g -> c [label=""];
+}

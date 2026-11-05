@@ -1,0 +1,20 @@
+digraph G {
+graph [rankdir=TB, bgcolor="white", pad="0.25", nodesep="0.35", ranksep="0.5", label="Historial de movimientos", labelloc=t, fontsize=16];
+node [fontname="DejaVu Sans", fontsize=11, margin="0.14,0.09"];
+edge [fontname="DejaVu Sans", fontsize=10, arrowsize=0.7];
+a [shape=ellipse, label="Inicio"];
+b [shape=diamond, label="Hay movimientos?"];
+c [shape=parallelogram, label="Avisar historial vacio"];
+d [shape=box, label="Recorrer movimientos"];
+e [shape=diamond, label="Queda un movimiento?"];
+f [shape=parallelogram, label="Mostrar fecha, codigo, tipo,\ncantidad y descripcion"];
+z [shape=ellipse, label="Volver a inventario"];
+a -> b [label=""];
+b -> c [label="No"];
+c -> z [label=""];
+b -> d [label="Si"];
+d -> e [label=""];
+e -> f [label="Si"];
+f -> e [label="Siguiente"];
+e -> z [label="No"];
+}

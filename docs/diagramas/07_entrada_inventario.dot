@@ -1,0 +1,38 @@
+digraph G {
+graph [rankdir=TB, bgcolor="white", pad="0.25", nodesep="0.35", ranksep="0.5", label="Entrada de inventario", labelloc=t, fontsize=16];
+node [fontname="DejaVu Sans", fontsize=11, margin="0.14,0.09"];
+edge [fontname="DejaVu Sans", fontsize=10, arrowsize=0.7];
+a [shape=ellipse, label="Inicio"];
+b [shape=diamond, label="Hay productos?"];
+c [shape=parallelogram, label="Avisar catalogo vacio"];
+d [shape=box, label="Leer codigo y buscar", peripheries=2];
+e [shape=diamond, label="Encontrado?"];
+f [shape=parallelogram, label="Avisar codigo inexistente"];
+g [shape=box, label="Leer cantidad entera positiva\ny descripcion obligatoria", peripheries=2];
+h [shape=parallelogram, label="Mostrar cantidad resultante y\nleer S/N"];
+i [shape=diamond, label="Respuesta S?"];
+j [shape=diamond, label="Respuesta N?"];
+k [shape=parallelogram, label="Avisar cancelacion"];
+l [shape=parallelogram, label="Avisar respuesta invalida"];
+m [shape=box, label="Crear movimiento, sumar\nunidades y agregar movimiento"];
+n [shape=parallelogram, label="Mostrar cantidad disponible"];
+z [shape=ellipse, label="Volver a inventario"];
+a -> b [label=""];
+b -> c [label="No"];
+c -> z [label=""];
+b -> d [label="Si"];
+d -> e [label=""];
+e -> f [label="No"];
+f -> z [label=""];
+e -> g [label="Si"];
+g -> h [label=""];
+h -> i [label=""];
+i -> m [label="Si"];
+i -> j [label="No"];
+j -> k [label="Si"];
+k -> z [label=""];
+j -> l [label="No"];
+l -> h [label=""];
+m -> n [label=""];
+n -> z [label=""];
+}

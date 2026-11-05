@@ -1,0 +1,27 @@
+digraph G {
+graph [rankdir=TB, bgcolor="white", pad="0.25", nodesep="0.35", ranksep="0.5", label="Generacion de reportes", labelloc=t, fontsize=16];
+node [fontname="DejaVu Sans", fontsize=11, margin="0.14,0.09"];
+edge [fontname="DejaVu Sans", fontsize=10, arrowsize=0.7];
+a [shape=ellipse, label="Inicio"];
+b [shape=parallelogram, label="Mostrar siete reportes y\nopcion 8; leer opcion"];
+c [shape=diamond, label="Opcion = 8?"];
+d [shape=diamond, label="Opcion entre 1 y 7?"];
+e [shape=parallelogram, label="Mostrar opcion incorrecta"];
+f [shape=box, label="Consultar listas de la sesion;\nejecutar reporte elegido", peripheries=2];
+g [shape=diamond, label="Calculo dentro del rango?"];
+h [shape=parallelogram, label="Mostrar resultado, aviso de\nvacio o total cero"];
+i [shape=parallelogram, label="Avisar importe fuera de rango"];
+z [shape=ellipse, label="Volver al principal"];
+a -> b [label=""];
+b -> c [label=""];
+c -> z [label="Si"];
+c -> d [label="No"];
+d -> e [label="No"];
+e -> b [label=""];
+d -> f [label="Si"];
+f -> g [label=""];
+g -> h [label="Si"];
+g -> i [label="No"];
+h -> b [label=""];
+i -> b [label=""];
+}

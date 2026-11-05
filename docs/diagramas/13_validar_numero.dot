@@ -1,0 +1,27 @@
+digraph G {
+graph [rankdir=TB, bgcolor="white", pad="0.25", nodesep="0.35", ranksep="0.5", label="Lectura y validacion de\nnumeros", labelloc=t, fontsize=16];
+node [fontname="DejaVu Sans", fontsize=11, margin="0.14,0.09"];
+edge [fontname="DejaVu Sans", fontsize=10, arrowsize=0.7];
+a [shape=ellipse, label="Inicio"];
+b [shape=parallelogram, label="Leer texto y quitar espacios\nexternos"];
+c [shape=diamond, label="Enter y se permite conservar?"];
+d [shape=box, label="Devolver valor anterior"];
+e [shape=diamond, label="Formato de digitos valido?"];
+f [shape=parallelogram, label="Avisar valor invalido"];
+g [shape=box, label="Convertir a entero o precio\ndecimal"];
+h [shape=diamond, label="Conversion valida; precio\nfinito?"];
+i [shape=box, label="Devolver numero no negativo"];
+z [shape=ellipse, label="Fin"];
+a -> b [label=""];
+b -> c [label=""];
+c -> d [label="Si"];
+d -> z [label=""];
+c -> e [label="No"];
+e -> f [label="No"];
+f -> b [label="Reintentar"];
+e -> g [label="Si"];
+g -> h [label=""];
+h -> f [label="No"];
+h -> i [label="Si"];
+i -> z [label=""];
+}

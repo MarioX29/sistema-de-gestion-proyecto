@@ -1,0 +1,29 @@
+digraph G {
+graph [rankdir=TB, bgcolor="white", pad="0.25", nodesep="0.35", ranksep="0.5", label="Registro de productos", labelloc=t, fontsize=16];
+node [fontname="DejaVu Sans", fontsize=11, margin="0.14,0.09"];
+edge [fontname="DejaVu Sans", fontsize=10, arrowsize=0.7];
+a [shape=ellipse, label="Inicio"];
+b [shape=box, label="Leer codigo obligatorio y\nconvertir a mayusculas", peripheries=2];
+c [shape=box, label="Buscar codigo en todos los\nproductos", peripheries=2];
+d [shape=diamond, label="Codigo ya existe?"];
+e [shape=parallelogram, label="Mostrar codigo repetido"];
+f [shape=box, label="Leer nombre y categoria\nobligatorios", peripheries=2];
+g [shape=box, label="Leer precio no negativo y\nfinito", peripheries=2];
+h [shape=box, label="Leer existencia y minimo\nenteros no negativos", peripheries=2];
+i [shape=box, label="Crear producto activo y\nmovimiento de entrada inicial"];
+j [shape=box, label="Agregar producto y movimiento\na sus listas"];
+k [shape=parallelogram, label="Mostrar registro correcto"];
+z [shape=ellipse, label="Volver a productos"];
+a -> b [label=""];
+b -> c [label=""];
+c -> d [label=""];
+d -> e [label="Si"];
+e -> b [label="Reintentar"];
+d -> f [label="No"];
+f -> g [label=""];
+g -> h [label=""];
+h -> i [label=""];
+i -> j [label=""];
+j -> k [label=""];
+k -> z [label=""];
+}
