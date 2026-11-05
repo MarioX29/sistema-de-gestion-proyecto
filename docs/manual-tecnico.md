@@ -12,7 +12,7 @@ Se necesita Python 3.9 o una versión más nueva. El programa se inicia desde la
 python3 src/main.py
 ```
 
-En Windows se puede usar `python` o `py`. Las fechas usan `datetime` y `zoneinfo` para obtener la hora de Guatemala. Si aparece `ZoneInfoNotFoundError` porque el equipo no tiene los datos de zonas horarias, se puede instalar `tzdata` con el mismo Python:
+En Windows se puede usar `python` o `py`. Las fechas usan `datetime` y `zoneinfo` para obtener la hora de Guatemala. Al iniciar se comprueba que estén disponibles los datos de la zona horaria. Si faltan, el programa muestra el comando de instalación y termina antes de abrir el menú. La dependencia se instala con el mismo Python:
 
 ```bash
 python -m pip install tzdata
@@ -24,7 +24,7 @@ El programa utiliza la biblioteca estándar de Python. En equipos sin informaci�
 
 | Archivo | Función dentro del programa |
 | --- | --- |
-| `main.py` | Crea las listas y muestra el menú principal. |
+| `main.py` | Comprueba la zona horaria, crea las listas y muestra el menú principal. |
 | `productos.py` | Registra, busca, lista, modifica y desactiva productos. Valida texto, precio y cantidades. |
 | `ventas.py` | Selecciona productos, calcula importes, confirma ventas y descuenta stock. |
 | `inventario.py` | Consulta existencias, registra entradas y muestra mínimos y movimientos. |
@@ -80,7 +80,7 @@ Desde la raíz del proyecto:
 python3 tests/probar_todo.py
 ```
 
-Hay 62 pruebas: 25 de productos y menú, 13 de ventas, 12 de inventario y 12 de reportes. Los resultados están en [evidencias/entrega](../evidencias/entrega/). Las entradas y salidas del ejemplo de uso están en [evidencias/manuales](../evidencias/manuales/).
+Hay 64 pruebas: 2 de inicio, 25 de productos y menú, 13 de ventas, 12 de inventario y 12 de reportes. Los resultados están en [evidencias/entrega](../evidencias/entrega/). Las entradas y salidas del ejemplo de uso están en [evidencias/manuales](../evidencias/manuales/).
 
 El programa no recupera datos al reiniciar. Al presionar Ctrl+C o terminar la entrada, el programa puede cerrarse. Las funciones de productos y ventas aceptan `movimientos=None` para usarlas por separado; el menú siempre pasa la lista compartida.
 

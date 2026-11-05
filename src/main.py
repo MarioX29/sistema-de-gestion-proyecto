@@ -1,3 +1,6 @@
+from zoneinfo import ZoneInfoNotFoundError
+
+from estructuras import fecha_actual
 from inventario import menu_inventario
 from productos import menu_productos
 from reportes import menu_reportes
@@ -14,6 +17,14 @@ def mostrar_menu():
 
 
 def main():
+    try:
+        fecha_actual()
+    except ZoneInfoNotFoundError:
+        print("No están disponibles los datos de la zona horaria America/Guatemala.")
+        print("Para instalarlos: python -m pip install tzdata")
+        print("En Windows también se puede usar: py -m pip install tzdata")
+        return
+
     # Los módulos usan estas mismas listas mientras el programa está abierto.
     productos = []
     ventas = []

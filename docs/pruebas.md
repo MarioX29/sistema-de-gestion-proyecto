@@ -4,11 +4,12 @@ Las pruebas revisan los datos que recibe el programa, las operaciones de cada m�
 
 | Módulo | Cantidad | Casos |
 | --- | --- | --- |
+| Inicio | 2 | Apertura normal y aviso cuando faltan los datos de zona horaria. |
 | Productos y menú | 25 | Registro, consulta, cambios, desactivación y validaciones. |
 | Ventas | 13 | Cantidades, stock, IVA, confirmación y cancelación. |
 | Inventario | 12 | Entradas, ajustes, mínimos y movimientos. |
 | Reportes | 12 | Ingresos, unidades vendidas, inventario y promedios. |
-| Total | 62 | Todas aprobadas en el registro de resultados. |
+| Total | 64 | Todas aprobadas en la ejecución con la comprobación de inicio. |
 
 ## Ejecución
 
@@ -31,6 +32,6 @@ Los documentos por módulo describen los casos y sus resultados. El [resumen de 
 
 ## Evidencias
 
-La salida de las 62 pruebas está en [python-pruebas.txt](../evidencias/entrega/python-pruebas.txt). Los casos de PSeInt y sus resultados están en [evidencias/entrega/pseint](../evidencias/entrega/pseint/).
+La salida de las 64 pruebas está en [python-pruebas-inicio.txt](../evidencias/entrega/python-pruebas-inicio.txt). El registro anterior de 62 pruebas se conserva en [python-pruebas.txt](../evidencias/entrega/python-pruebas.txt). Los casos de PSeInt y sus resultados están en [evidencias/entrega/pseint](../evidencias/entrega/pseint/).
 
 Las evidencias incluyen registros de texto y [capturas de ejecución](../evidencias/entrega/README.md#capturas-de-ejecución).

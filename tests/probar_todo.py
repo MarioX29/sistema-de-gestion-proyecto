@@ -7,7 +7,7 @@ import sys
 
 def main():
     carpeta = Path(__file__).resolve().parent
-    for archivo in ["probar_sistema.py", "probar_ventas.py", "probar_inventario.py", "probar_reportes.py"]:
+    for archivo in ["probar_inicio.py", "probar_sistema.py", "probar_ventas.py", "probar_inventario.py", "probar_reportes.py"]:
         print("\nEjecutando " + archivo, flush=True)
         resultado = subprocess.run([sys.executable, str(carpeta / archivo)])
         if resultado.returncode != 0:
