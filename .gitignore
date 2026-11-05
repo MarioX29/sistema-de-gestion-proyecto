@@ -1,0 +1,25 @@
+# Cachés y archivos compilados de Python
+__pycache__/
+*.py[cod]
+
+# Entornos virtuales
+.venv/
+venv/
+env/
+
+# Herramientas de pruebas y análisis
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Distribuciones y paquetes generados
+build/
+dist/
+*.egg-info/
+
+# Configuración local
+.env
+.env.*
+!.env.example
