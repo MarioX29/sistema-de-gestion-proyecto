@@ -26,6 +26,10 @@ En Windows se puede usar `python` o `py` en lugar de `python3`. Los errores de z
 
 Para cerrar desde un submenú, se selecciona la opción de volver al principal y después la opción 5. No se pide confirmación al salir.
 
+Menú principal del sistema.
+
+![Menú principal](../evidencias/entrega/capturas/00_menu.png)
+
 ## Productos
 
 La opción 1 del menú principal abre el submenú de productos:
@@ -39,6 +43,12 @@ La opción 1 del menú principal abre el submenú de productos:
 
 El código no puede repetirse, aunque el producto esté inactivo. `p01` y `P01` son el mismo código. Código, nombre y categoría son obligatorios. El precio puede ser cero y usa punto decimal; existencia y stock mínimo deben ser enteros no negativos. El sistema vuelve a pedir los valores incorrectos.
 
+Consulta de P01 y validación de código repetido.
+
+![Consulta del producto P01](../evidencias/entrega/capturas/01_productos.png)
+
+![Código repetido](../evidencias/entrega/capturas/02_validaciones.png)
+
 ## Ventas
 
 La opción 2 del menú principal inicia una venta. Debe existir algún producto activo con stock.
@@ -50,6 +60,10 @@ La opción 2 del menú principal inicia una venta. Debe existir algún producto 
 5. Se confirma con `S` o se cancela con `N`.
 
 Las cantidades deben ser enteras, mayores que cero y no superar las existencias. Solo se descuenta inventario al confirmar. La venta recibe número y fecha; su detalle se consulta en reportes. Enter antes de agregar productos cancela una venta vacía. Después de la operación se vuelve al principal.
+
+Venta de 2 cuadernos a 12.50: subtotal 25.00, IVA 3.00 y total 28.00.
+
+![Venta confirmada](../evidencias/entrega/capturas/03_venta.png)
 
 ## Inventario
 
@@ -64,6 +78,10 @@ La opción 3 del menú principal abre el submenú de inventario.
 | 5 | Volver al principal. |
 
 El historial incluye el registro inicial, entradas, cambios de cantidad y salidas por ventas. Modificar la cantidad en productos registra un ajuste por la diferencia. Recibir unidades de un producto inactivo no lo reactiva. Las consultas de existencias y mínimos incluyen inactivos.
+
+Entrada de 4 unidades y registro de movimientos. La existencia final de P01 es 5.
+
+![Entrada e historial de inventario](../evidencias/entrega/capturas/04_inventario.png)
 
 ## Reportes
 
@@ -81,6 +99,12 @@ La opción 4 del menú principal abre el submenú de reportes.
 | 8 | Volver al principal. |
 
 Para la opción 7 ingresar fechas reales con formato `YYYY-MM-DD`. La final no debe ser anterior a la inicial. Se cuentan ambos días y los días sin ventas. Enter en una fecha cancela. Para ver solo hoy, usar la fecha actual de Guatemala en ambos campos. Los reportes no cambian los datos.
+
+P01 registra 2 unidades vendidas. Después de la reposición, el inventario vale 62.50. El reporte de ingresos muestra 28.00.
+
+![Producto más vendido y valor del inventario](../evidencias/entrega/capturas/05_reportes.png)
+
+![Ingresos por ventas](../evidencias/entrega/capturas/05_ingresos.png)
 
 ## Ejemplo
 

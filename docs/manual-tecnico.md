@@ -89,3 +89,9 @@ Los [diagramas](diagramas/) representan los procesos de Python. El [pseudocódig
 ## Evidencias de ejecución
 
 Los registros incluyen 62 pruebas aprobadas de Python y 26 casos de PSeInt. Los [resultados](../evidencias/entrega/) están guardados en archivos de texto.
+
+Las pruebas de Python también se ejecutaron en Windows con Python 3.10.4, con la validación de longitud de enteros aplicada en `leer_entero`.
+
+![Pruebas de productos y menú](../evidencias/entrega/capturas/06_pruebas_productos.png)
+
+![Finalización de las pruebas de Python](../evidencias/entrega/capturas/06_pruebas.png)

@@ -33,4 +33,4 @@ Los documentos por módulo describen los casos y sus resultados. El [resumen de 
 
 La salida de las 62 pruebas está en [python-pruebas.txt](../evidencias/entrega/python-pruebas.txt). Los casos de PSeInt y sus resultados están en [evidencias/entrega/pseint](../evidencias/entrega/pseint/).
 
-Las evidencias disponibles son registros de texto. Las capturas de pantalla aún no están incorporadas.
+Las evidencias incluyen registros de texto y [capturas de ejecución](../evidencias/entrega/README.md#capturas-de-ejecución).

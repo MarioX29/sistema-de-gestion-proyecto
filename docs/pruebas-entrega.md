@@ -43,7 +43,11 @@ Las entradas y salidas completas están en [ejecuciones.txt](../evidencias/entre
 
 ## Evidencias
 
-Las entradas, salidas y resultados están en [evidencias/entrega](../evidencias/entrega/). Las capturas de pantalla aún no están incorporadas.
+Las entradas, salidas, resultados y capturas de ejecución están en [evidencias/entrega](../evidencias/entrega/).
+
+Las pruebas de Python se ejecutaron en Windows con Python 3.10.4 después de incorporar la validación de longitud de enteros. La ejecución terminó correctamente.
+
+![Resultado de las pruebas de Python](../evidencias/entrega/capturas/06_pruebas.png)
 
 ## Errores corregidos
 
