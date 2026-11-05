@@ -16,7 +16,7 @@ Cada producto se guarda en un diccionario de la lista `productos`:
 | `stock_minimo` | Entero mayor o igual a cero; puede superar la existencia actual. |
 | `activo` | Verdadero al registrar; falso al desactivar. No se elimina el producto. |
 
-Los campos numéricos aceptan dígitos 0–9, punto para el precio y sin signos, comas ni notación científica. Se rechazan conversiones fuera del rango admitido por Python. Cada vez que se abre el programa, la lista empieza vacía.
+Los campos numéricos aceptan dígitos 0–9, punto para el precio y sin signos, comas ni notación científica. Las cantidades enteras aceptan hasta 4300 dígitos; también se rechazan conversiones fuera del rango admitido por Python. Cada vez que se abre el programa, la lista empieza vacía.
 
 La opción 1 del menú principal abre un submenú: registrar, consultar, listar, modificar, desactivar y volver al menú principal. Cada operación regresa al submenú y la opción 6 permite volver al principal. Una opción incorrecta produce un aviso y repite el submenú.
 

@@ -46,4 +46,4 @@ El registro de resultados contiene 25 pruebas aprobadas.
 
 ## Alcance
 
-El rechazo de enteros de 5000 dígitos se comprobó con la configuración predeterminada de Python 3.12.14. Las pruebas de los otros módulos están en sus respectivos documentos.
+El programa rechaza entradas enteras de más de 4300 dígitos antes de convertirlas. Las 62 pruebas pasaron con el límite de conversión del intérprete activado y desactivado. Las pruebas de los otros módulos están en sus respectivos documentos.

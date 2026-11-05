@@ -52,7 +52,7 @@ def leer_entero(campo, anterior=None):
         texto = input(campo + indicacion + ": ").strip()
         if texto == "" and anterior is not None:
             return anterior
-        if es_numero(texto, False):
+        if len(texto) <= 4300 and es_numero(texto, False):
             try:
                 return int(texto)
             except ValueError:
